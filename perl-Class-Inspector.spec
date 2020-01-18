@@ -1,6 +1,6 @@
 Name:		perl-Class-Inspector
 Version:	1.28
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	Get information about a class and its structure
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -54,6 +54,9 @@ make test AUTOMATED_TESTING=1
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.28-2
+- Mass rebuild 2013-12-27
+
 * Tue Nov 06 2012 Ralf Corsépius <corsepiu@fedoraproject.org> - 1.28-1
 - Upstream update.
 
